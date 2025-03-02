@@ -387,11 +387,11 @@ video{
         margin-top: 4rem;
     }
     .social-icon-hero li{
-        margin: 0rem 0.2rem ;
+        margin: 0rem 0.4rem ;
     }
 
     .social-icon-hero ul{
-        left: 0rem ;
+        left: -0.5rem ;
     }
 
     .btn-hero{
@@ -399,7 +399,11 @@ video{
     }
 
     #hero{
-        min-height: 145vh;
+        min-height: 128vh;
+    }
+
+    .content-text-hero h2{
+        font-size: 3.5rem;
     }
 }
    
