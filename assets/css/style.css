@@ -239,23 +239,65 @@ video{
     font-size: 1.5rem;
 }
 
-@media (max-width: 410px) {
+
+@media (min-width: 1024px) {
+    body{
+        background-color:rgb(43, 226, 58)
+    }
+    .content-hero{
+        margin-left: 2rem;
+        padding-top: 0.5rem;
+    }
+    .navbar-initial{
+        margin-bottom: 11%;
+    }
+
+    .navbar-content-menu li{
+        margin: 0rem;
+        margin: 0rem 0.5rem;
+    }
+ .menu-btn {
+    display: none;
+ }
+    .navbar-menu-item{
+        list-style: none;
+        margin: 0px 1.8rem;
+    }
     #hero{
-        min-height: 120vh;
+        min-height: 128vh;
+    }
+
+    .content-text-hero{
+        margin: 0;
+        width: 48%;
+    }
+
+    .navbar-content-menu{
+        position: static !important;
+        right: 0 !important;
+        height: auto;
+        display: flex;
+        padding-bottom: 0 !important;
+        opacity: 1;
+        pointer-events: auto;
+
+    }
+    ul{
+        margin-top: auto;
+    }
+
+    .content-divisor-hero{
+        margin: 18% auto;
     }
 
     .social-icon-hero ul{
-        left: -1.5rem;
-    }
-    
-    .social-icon-hero li{
-        padding: 1rem 1rem;
+        position: relative;
+        flex-direction: column;
     }
 
-    .social-icon-hero i{
-        font-size: 2rem !important;
+    .social-icon-hero li{
+        margin: 0.5rem 0rem;
     }
-    
 }
 
 @media (max-width: 840px) {
@@ -317,63 +359,47 @@ video{
     
 }
 
-@media (min-width: 1024px) {
-    body{
-        background-color:rgb(43, 226, 58)
-    }
-    .content-hero{
-        margin-left: 2rem;
-        padding-top: 0.5rem;
-    }
-    .navbar-initial{
-        margin-bottom: 11%;
-    }
-
-    .navbar-content-menu li{
-        margin: 0rem;
-        margin: 0rem 0.5rem;
-    }
- .menu-btn {
-    display: none;
- }
-    .navbar-menu-item{
-        list-style: none;
-        margin: 0px 1.8rem;
-    }
+@media (max-width: 410px) {
     #hero{
-        min-height: 128vh;
-    }
-
-    .content-text-hero{
-        margin: 0;
-        width: 48%;
-    }
-
-    .navbar-content-menu{
-        position: static !important;
-        right: 0 !important;
-        height: auto;
-        display: flex;
-        padding-bottom: 0 !important;
-        opacity: 1;
-        pointer-events: auto;
-
-    }
-    ul{
-        margin-top: auto;
-    }
-
-    .content-divisor-hero{
-        margin: 18% auto;
+        min-height: 120vh;
     }
 
     .social-icon-hero ul{
-        position: relative;
-        flex-direction: column;
+        left: -1.5rem;
+    }
+    
+    .social-icon-hero li{
+        padding: 1rem 1rem;
     }
 
+    .social-icon-hero i{
+        font-size: 2rem !important;
+    }
+    
+}
+
+@media (max-width: 376px) {
+    body{
+        background-color: blue;
+    }
+
+    .social-icon-hero ul {
+        margin-top: 4rem;
+    }
     .social-icon-hero li{
-        margin: 0.5rem 0rem;
+        margin: 0rem 0.2rem ;
+    }
+
+    .social-icon-hero ul{
+        left: 0rem ;
+    }
+
+    .btn-hero{
+        font-size: 1rem !important;
+    }
+
+    #hero{
+        min-height: 145vh;
     }
 }
    
